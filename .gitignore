@@ -1,0 +1,23 @@
+*.pdf
+*.txt
+*.csv
+!docs/example_statement.pdf
+!requirements.txt
+!packages.txt
+!runtime.txt
+!entrypoint.spec
+!tests/fixtures/**
+
+_ignore*
+.DS_Store
+build
+dist/
+*.whl
+.venv/
+.pytest_cache/
+__pycache__/
+.pip-cache/
+.pdm-build/
+
+# exclude uv to allow optional dependencies to be installed on streamlit
+uv.lock
